@@ -1,2 +1,2 @@
 # angular2-todo
-Todo Application in AngularJS 2.0 Beta
+Todo App written in AngularJS 2.0 Beta & TypeScript
