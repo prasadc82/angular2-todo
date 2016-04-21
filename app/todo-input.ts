@@ -15,8 +15,7 @@ export class TodoInput {
     constructor(public todoService:TodoService){}
     
     onSubmit() {
-        console.log(this.todoService.todos);
-        this.todoService.todos.push(this.todoModel);
+        this.todoService.addTodo(this.todoModel);
         this.todoModel = new TodoModel();
     }
 }
